@@ -1,0 +1,7 @@
+<resources>
+    <string name="user_location_permission_explanation">EXPLANATION_HERE</string>
+    <string name="user_location_permission_not_granted">PERMISSION_NOT_GRANTED</string>
+    <string name="new_location">NEW_LOCATION</string>
+    <string name="app_name">My Contacts DB</string>
+    <string name="access_token">sk.eyJ1IjoibXVnaGVlczk3IiwiYSI6ImNrMHYzdTdzcDBrZnQzaXBkM3d1enc1M28ifQ.4ALqgJSax1xtABKq5tPgrw</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RowLayout"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_marginTop="15dp"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="3.999"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="8">
+
+        <ImageView
+            android:id="@+id/RowImg"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:layout_weight="2"
+            >
+
+        </ImageView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="100dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Name"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/phno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="12345678"
+                />
+
+            <TextView
+                android:id="@+id/addrss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="address"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_weight="0.001"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:background="#000"/>
+
+
+</LinearLayout>
